@@ -1,3 +1,4 @@
+
 const convertButton = document.querySelector(".convert-button")
 const currencySelectConvert = document.querySelector(".currency-select-to-convert")
 const currencySelect = document.querySelector(".currency-select-converted")
@@ -137,5 +138,3 @@ function changeCurrency() {
 currencySelectConvert.addEventListener("change", changeCurrency)
 currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues)
-
-
